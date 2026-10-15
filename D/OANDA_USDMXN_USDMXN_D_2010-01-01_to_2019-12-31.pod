@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "USD_MXN",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_USDMXN_USDMXN_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_USDMXN_USDMXN_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2891,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 13.0785,
+    "high": 13.07948,
+    "low": 13.0785,
+    "close": 13.07917,
+    "volume": 19
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 18.93526,
+    "high": 18.9456,
+    "low": 18.84138,
+    "close": 18.93881,
+    "volume": 216449
+  },
+  "csv_file": "OANDA_USDMXN_USDMXN_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2891,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 13.0785,
+    "high": 13.07948,
+    "low": 13.0785,
+    "close": 13.07917,
+    "volume": 19
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 18.93526,
+    "high": 18.9456,
+    "low": 18.84138,
+    "close": 18.93881,
+    "volume": 216449
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T07:13:23.000000000Z",
+  "generated_at": "2026-10-15T07:13:23.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2002-05-06T21:00:00Z",
+        "to": "2016-01-13T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-01-13T21:00:00Z",
+        "to": "2026-10-14T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
